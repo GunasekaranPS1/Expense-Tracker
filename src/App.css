@@ -1,0 +1,95 @@
+.App {
+  display: flex;
+  margin-left: 140px;
+  margin-top: 40px;
+  width: 80%;
+  height: 90vh;
+  background-color: rgb(10, 227, 251);
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  width: 30%;
+  background-color: lightcoral;
+  margin-left: 2.5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 7px;
+}
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 75px;
+  width: 30%;
+}
+.btns {
+  width: 100%;
+  background-color: rgb(30, 103, 238);
+  color: wheat;
+}
+
+.cards {
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+}
+
+.cards div.card {
+  width: 150px !important;
+  justify-content: center;
+}
+
+.cards div.card-body,h2 {
+  text-align: center;
+  justify-content: space-evenly;
+
+}
+.history .card{
+  overflow-y: auto;
+  max-height: 520px;
+  margin-left: 7.5%;
+  margin-top: -3.5%;
+  background-color: lightgoldenrodyellow;
+}
+.history h1{
+  margin: -17.5% -18% 5.6% 15%;
+}
+.card-history {
+  margin: 7%;
+}
+
+.history .card-history .card-body,h3,h2 {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.history .card-history .card-body h4{
+  color: white;
+}
+.card-history #one {
+  color: black;
+}
+.rchart {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 7px;
+}
+.chart button{
+  border-radius: 6px;
+  background-color: rgb(30, 103, 238);
+  color: white;
+}
